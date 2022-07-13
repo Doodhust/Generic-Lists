@@ -273,15 +273,15 @@
 			arr.print();
 			arr.remove(10);
 			Console.WriteLine(arr.find(10));
-			LinkedList<int> li_arr = new LinkedList<int>();
-			li_arr.add(2);
-			li_arr.add(1);
-			li_arr.add(1);
-			li_arr.add(1);
-			li_arr.remove(7);
-			li_arr.print();
-			li_arr.replace(100, 10);
-			Console.WriteLine(li_arr.find(2));
+			LinkedList<int> l_arr = new LinkedList<int>();
+			l_arr.add(2);
+			l_arr.add(1);
+			l_arr.add(1);
+			l_arr.add(1);
+			l_arr.remove(7);
+			l_arr.print();
+			l_arr.replace(100, 10);
+			Console.WriteLine(l_arr.find(2));
 		}
 	}
 }
